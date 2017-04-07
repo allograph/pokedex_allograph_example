@@ -12,7 +12,8 @@ import './index.css'
 
 const client = new ApolloClient({
   networkInterface: createNetworkInterface({ 
-    uri: 'http://localhost:4000/graphql',
+    uri: 'https://pokedex-graphql-server.herokuapp.com/graphql',
+    // uri: 'http://localhost:4000/graphql',
     opts: {
       credentials: 'same-origin',
     }
